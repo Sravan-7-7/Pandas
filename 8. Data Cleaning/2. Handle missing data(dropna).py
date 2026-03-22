@@ -7,12 +7,12 @@ df = pd.read_csv('data.csv')
 
 # IF A ROW IS MISSING A VALUE WITHIN TYPE TWO WE'RE GOING TO DROP THAT ENTIRE ROW . HERE'S HOW TO DO THAT...
 
-#df = df.dropna(subset=['Type2'])
+df = df.dropna(subset=['Type2'])
 
 # dropna = DROP NOT AVALIABLE
 
-#print(df.to_string())
-#print('---------------------------------------')
+print(df.to_string())
+print('---------------------------------------')
 
 '''IN PLACE OF DROPPING ANY ROWS WHERE THE VALUES ARE NOT AVALIABLE, LET'S REPLACE THEM INSTEAD WITH A DIFFERENT FUNCTION'''
 
