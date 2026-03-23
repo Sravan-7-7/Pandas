@@ -7,4 +7,4 @@ pokemon = input('Enter a pokemon name: ')
 try:
     print(df.loc[pokemon])
 except KeyError:
-    print(f'{pokemon} not foumd')
+    print(f'{pokemon} not found')
