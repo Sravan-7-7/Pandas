@@ -23,6 +23,6 @@ Pandas is built on top of NumPy, providing high-performance data structures. The
 
 📚 Resources 
 
-Official Pandas Documentation
+1. https://pandas.pydata.org/docs/
 
-Pandas Cheat Sheet (PDF)
+2. https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
