@@ -5,7 +5,7 @@
 
 import pandas as pd
 
-df = pd.read_json('data.csv')
+df = pd.read_csv('data.csv')
 print(df) # it only prints 1st 5 rows and last 5 rows and rest all are truncated
 print('----------------------------------')
 
